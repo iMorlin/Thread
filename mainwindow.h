@@ -1,5 +1,4 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#pragma once
 
 #include <QMainWindow>
 
@@ -15,8 +14,11 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void AddItemCoun();
+    void DelItemCoun();
+    void SaveAllCoun();
+
 private:
     Ui::MainWindow *ui;
 };
-
-#endif // MAINWINDOW_H
