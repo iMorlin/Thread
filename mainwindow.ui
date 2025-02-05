@@ -81,14 +81,19 @@
        <number>0</number>
       </property>
       <property name="columnCount">
-       <number>1</number>
+       <number>2</number>
       </property>
       <attribute name="horizontalHeaderDefaultSectionSize">
        <number>130</number>
       </attribute>
       <column>
        <property name="text">
-        <string>Счетчик</string>
+        <string notr="true" comment="Индекс" extracomment="Индекс">Индекс</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string comment="Счетчик" extracomment="Счетчик">Счетчик</string>
        </property>
       </column>
      </widget>
